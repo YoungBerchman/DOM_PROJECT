@@ -24,12 +24,14 @@
   font-size: 23px;
   padding-left: 12px;
   padding-top: 10px;
+  color: pink;
 }
+
 .space {
   display: flex;
   gap: 5px;
 }
-.colors {
+.blue {
   width: 8vw;
   height: 6vh;
   padding: 7px;
@@ -39,7 +41,7 @@
   border: none;
   border-radius: 5px;
 }
-.colors1 {
+.red {
   width: 8vw;
   height: 6vh;
   padding: 7px;
@@ -49,7 +51,7 @@
   border: none;
   border-radius: 5px;
 }
-.colors2 {
+.green {
   width: 8vw;
   height: 6vh;
   padding: 7px;
@@ -58,4 +60,14 @@
   font-weight: bold;
   border: none;
   border-radius: 5px;
+}
+.but1 {
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  background-color: aquamarine;
+}
+.new {
+  display: flex;
+  justify-content: flex-end;
 }
